@@ -2,13 +2,21 @@ import Link from 'next/link'
 import { Carrousel } from '../Carrousel'
 import { TypedSpan } from '../TypedSpan'
 import { ArrowRight } from 'lucide-react'
+import { useEffect } from 'react'
+import AOS from 'aos'
 
 export default function Portfolio() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // duração da animação em milissegundos
+    })
+  }, [])
+
   return (
     <div id="portfolio" className="h-fit w-full bg-radial-gradient xl:h-screen">
       <div className="m-auto flex w-full max-w-7xl flex-col items-center justify-center px-8 py-20 md:px-20 xl:h-screen xl:flex-row xl:gap-32 2xl:px-0 2xl:py-0">
-        <div>
-          <div className="flex w-full flex-col gap-6">
+        <div className="">
+          <div className="flex w-full flex-col gap-6 px-4">
             <h1 className="text-4xl font-extrabold uppercase text-zinc-100 sm:text-7xl">
               {'< '}
               Portifólio
@@ -18,7 +26,7 @@ export default function Portfolio() {
           </div>
 
           <div className="mt-20 flex flex-col items-center gap-20 xl:flex-row xl:items-start">
-            <div className="flex flex-1 flex-col gap-4">
+            <div data-aos="zoom-in" className="flex flex-1 flex-col gap-4 px-4">
               <p className="text-md leading-relaxed text-zinc-100 sm:text-lg">
                 Desenvolvo aplicações e páginas de ponta a ponta, utilizando as
                 tecnologias mais requisitadas e valorizadas no mercado atual.

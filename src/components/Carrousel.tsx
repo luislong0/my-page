@@ -13,7 +13,7 @@ export function Carrousel() {
   })
 
   return (
-    <div ref={ref} className="keen-slider max-w-sm">
+    <div ref={ref} className="keen-slider max-w-sm px-4">
       <div className="keen-slider__slide number-slide1">
         <TechCard tech="react" />
       </div>

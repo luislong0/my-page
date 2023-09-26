@@ -6,6 +6,7 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { SocialBtn } from '../Buttons/SocialBtn'
 import { useEffect } from 'react'
 import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 export default function Hero() {
   useEffect(() => {
@@ -27,7 +28,7 @@ export default function Hero() {
       />
 
       <div
-        data-aos="fade-left"
+        data-aos="zoom-in"
         className="mt-20 flex flex-col gap-4 sm:gap-8  xl:mt-0"
       >
         <span className="bg-radial-gradient-text bg-clip-text text-4xl font-extrabold uppercase text-transparent sm:text-7xl">

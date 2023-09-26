@@ -19,7 +19,7 @@ export default function Hero() {
       <NavbarMenu />
       <div className="m-auto flex w-full max-w-7xl flex-col items-center justify-center px-8 md:px-20 xl:h-[80vh] xl:flex-row xl:gap-10 2xl:px-0">
         <div
-          data-aos="fade-right"
+          data-aos="zoom-in"
           className="mt-10 flex flex-col gap-10 sm:gap-12"
         >
           <div className="flex flex-col gap-3">
@@ -44,7 +44,7 @@ export default function Hero() {
           <ArrowBtn />
         </div>
 
-        <Image src={emojiPng} alt={'emoji'} className="" />
+        <Image src={emojiPng} alt={'emoji'} width={400} height={400} />
       </div>
     </div>
   )
