@@ -20,11 +20,11 @@ export default function Portfolio() {
       <div className="m-auto flex w-full max-w-7xl flex-col items-center justify-center px-8 py-20 md:px-20 xl:h-screen xl:flex-row xl:gap-32 2xl:px-0 2xl:py-0">
         <div className="">
           <div className="flex w-full flex-col gap-6 px-4 sm:px-0">
-            <h1 className="text-4xl font-extrabold uppercase text-zinc-100 sm:text-5xl">
+            <h2 className="text-4xl font-extrabold uppercase text-zinc-100 sm:text-5xl">
               {'< '}
               Portifólio
               {' />'}
-            </h1>
+            </h2>
             <TypedSpan />
           </div>
 

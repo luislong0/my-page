@@ -20,7 +20,7 @@ export function ServiceBox({ service }: ServiceBoxProps) {
             <Image src={landingPageIcon} alt="Landing page Icon" />
             {/* <FontAwesomeIcon icon={faReact} size={'5x'} /> */}
           </div>
-          <div className="flex flex-col gap-5 p-8">
+          <div className="flex flex-1 flex-col gap-5 p-8">
             <span className="text-2xl font-bold uppercase text-violet-500">
               Páginas web
             </span>
@@ -44,7 +44,7 @@ export function ServiceBox({ service }: ServiceBoxProps) {
           <div className="hidden w-full max-w-[200px] items-center justify-center rounded-l-md border-r-2 bg-radial-gradient text-zinc-100 xl:flex">
             <FontAwesomeIcon icon={faDesktop} size={'4x'} />
           </div>
-          <div className="flex flex-col gap-5 p-8">
+          <div className="flex flex-1 flex-col gap-5 p-8">
             <span className="text-2xl font-bold uppercase text-violet-500">
               Aplicações Web
             </span>
@@ -72,7 +72,7 @@ export function ServiceBox({ service }: ServiceBoxProps) {
           <div className="hidden w-full max-w-[200px] items-center justify-center rounded-l-md border-r-2 bg-radial-gradient text-zinc-100 xl:flex">
             <FontAwesomeIcon icon={faMobileScreen} size={'4x'} />
           </div>
-          <div className="flex flex-col gap-5 p-8">
+          <div className="flex flex-1 flex-col gap-5 p-8">
             <span className="text-2xl font-bold uppercase text-violet-500">
               Mobile
             </span>
@@ -98,7 +98,7 @@ export function ServiceBox({ service }: ServiceBoxProps) {
           <div className="hidden w-full max-w-[200px] items-center justify-center rounded-l-md border-r-2 bg-radial-gradient text-zinc-100 xl:flex">
             <FontAwesomeIcon icon={faGlobe} size={'4x'} />
           </div>
-          <div className="flex flex-col gap-5 p-8">
+          <div className="flex flex-1 flex-col gap-5 p-8">
             <span className="text-2xl font-bold uppercase text-violet-500">
               {"API's"}
             </span>
