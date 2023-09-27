@@ -2,7 +2,7 @@ import { TypeAnimation } from 'react-type-animation'
 
 export function TypedSpan() {
   return (
-    <code className="flex flex-col gap-1 text-2xl font-bold sm:flex-row sm:gap-2">
+    <code className="flex h-10 flex-col gap-1 text-xl font-bold text-violet-400 sm:h-auto sm:flex-row sm:gap-2">
       <TypeAnimation
         sequence={[
           // Same substring at the start will only be typed out once, initially

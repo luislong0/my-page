@@ -1,8 +1,4 @@
-import {
-  faWhatsapp,
-  faGithub,
-  faLinkedin,
-} from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Mail } from 'lucide-react'
 import Link from 'next/link'
@@ -28,14 +24,7 @@ export default function SocialMediaIcons() {
         href={''}
         className="transition-all hover:scale-105 hover:text-violet-500"
       >
-        <FontAwesomeIcon icon={faWhatsapp} size={'2x'} />
-      </Link>
-
-      <Link
-        href={''}
-        className="transition-all hover:scale-105 hover:text-violet-500"
-      >
-        <Mail size={32} />
+        <Mail size={36} />
       </Link>
     </div>
   )

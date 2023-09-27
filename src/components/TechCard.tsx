@@ -21,7 +21,7 @@ export function TechCard({ tech }: TechCardProps) {
   return (
     <>
       {tech === 'react' && (
-        <div className="flex h-full max-h-[500px] w-[350px] flex-col justify-between gap-5 rounded-md border-2 border-blue-500 bg-zinc-950 p-5">
+        <div className="flex h-full min-h-[500px] w-[350px] flex-col justify-between gap-5 rounded-md border-2 border-blue-500 bg-zinc-950 p-5">
           <span className="flex flex-col items-center justify-center gap-2 text-blue-500">
             <FontAwesomeIcon icon={faReact} size={'9x'} />
             <code className="text-xl font-bold">React</code>
@@ -61,7 +61,7 @@ export function TechCard({ tech }: TechCardProps) {
       )}
 
       {tech === 'node' && (
-        <div className="flex h-full max-h-[500px] w-[350px] flex-col justify-between gap-5 rounded-md border-2 border-green-500 bg-zinc-950 p-5">
+        <div className="flex h-full min-h-[500px] w-[350px] flex-col justify-between gap-5 rounded-md border-2 border-green-500 bg-zinc-950 p-5">
           <span className="flex flex-col items-center justify-center gap-2 text-green-500">
             <FontAwesomeIcon icon={faNodeJs} size={'9x'} />
             <code className="text-xl font-bold">NodeJS</code>
@@ -101,7 +101,7 @@ export function TechCard({ tech }: TechCardProps) {
       )}
 
       {tech === 'native' && (
-        <div className="flex h-full max-h-[500px] w-[350px] flex-col justify-between gap-5 rounded-md border-2 border-indigo-700 bg-zinc-950 p-6">
+        <div className="flex h-full min-h-[500px] w-[350px] flex-col justify-between gap-5 rounded-md border-2 border-indigo-700 bg-zinc-950 p-6">
           <span className="flex flex-col items-center justify-center gap-2 text-indigo-700">
             <FontAwesomeIcon icon={faReact} size={'9x'} />
             <code className="text-xl font-bold">React Native</code>
@@ -141,7 +141,7 @@ export function TechCard({ tech }: TechCardProps) {
       )}
 
       {tech === 'type' && (
-        <div className="flex h-full max-h-[500px] w-[350px] flex-col justify-between gap-5 rounded-md border-2 border-sky-600 bg-zinc-950 p-6">
+        <div className="flex h-full min-h-[500px] w-[350px] flex-col justify-between gap-5 rounded-md border-2 border-sky-600 bg-zinc-950 p-6">
           <span className="flex flex-col items-center justify-center gap-2 text-sky-600">
             <Image src={typescriptLogo} alt="Typescript Logo" />
             <code className="text-xl font-bold">Typescript</code>

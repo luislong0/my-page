@@ -23,7 +23,7 @@ export function SocialBtn({
       ${
         color === 'white' &&
         'border-2 border-zinc-200 text-zinc-200 hover:bg-zinc-200 hover:text-zinc-950'
-      } flex w-full max-w-[250px] items-center justify-center gap-3 rounded-md px-8 py-2.5 font-bold transition-all hover:scale-105 hover:font-extrabold`}
+      } flex w-full max-w-full items-center justify-center gap-3 rounded-md px-8 py-2.5 font-bold transition-all hover:scale-105 hover:font-extrabold sm:max-w-[250px]`}
     >
       {svg}
       {content}

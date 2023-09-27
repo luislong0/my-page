@@ -29,13 +29,13 @@ export function RightBar() {
         isSelected === i + 1 ? (
           <div
             key={i}
-            className="rotate-45 scale-125 transform border-2 border-violet-300 bg-purple-950 p-[4px] ring-1 ring-purple-950 transition-all"
+            className="rotate-45 scale-125 transform border-2 border-zinc-100 bg-violet-600 p-[4px] ring-1 ring-violet-600 transition-all"
           />
         ) : (
           <div
             key={i}
             onClick={() => handleSelect(link, i + 1)}
-            className="hover:border-1 transform border-2 border-purple-950 bg-violet-300 p-[4px] transition-all hover:rotate-45 hover:scale-125 hover:border-violet-300 hover:bg-purple-950 hover:ring-1 hover:ring-purple-950"
+            className="hover:border-1 transform border-2 border-violet-600 bg-zinc-100 p-[4px] transition-all hover:rotate-45 hover:scale-125 hover:border-zinc-100 hover:bg-violet-600 hover:ring-1 hover:ring-violet-600"
           />
         ),
       )}

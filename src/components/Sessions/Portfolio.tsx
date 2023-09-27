@@ -16,8 +16,8 @@ export default function Portfolio() {
     <div id="portfolio" className="h-fit w-full bg-radial-gradient xl:h-screen">
       <div className="m-auto flex w-full max-w-7xl flex-col items-center justify-center px-8 py-20 md:px-20 xl:h-screen xl:flex-row xl:gap-32 2xl:px-0 2xl:py-0">
         <div className="">
-          <div className="flex w-full flex-col gap-6 px-4">
-            <h1 className="text-4xl font-extrabold uppercase text-zinc-100 sm:text-7xl">
+          <div className="flex w-full flex-col gap-6 ">
+            <h1 className="text-4xl font-extrabold uppercase text-zinc-100 sm:text-5xl">
               {'< '}
               Portifólio
               {' />'}
@@ -26,7 +26,7 @@ export default function Portfolio() {
           </div>
 
           <div className="mt-20 flex flex-col items-center gap-20 xl:flex-row xl:items-start">
-            <div data-aos="zoom-in" className="flex flex-1 flex-col gap-4 px-4">
+            <div data-aos="zoom-in" className="flex flex-1 flex-col gap-4 ">
               <p className="text-md leading-relaxed text-zinc-100 sm:text-lg">
                 Desenvolvo aplicações e páginas de ponta a ponta, utilizando as
                 tecnologias mais requisitadas e valorizadas no mercado atual.
@@ -50,9 +50,9 @@ export default function Portfolio() {
 
               <Link
                 href={''}
-                className="mt-6 flex w-full max-w-[250px] items-center justify-center gap-3 rounded-md border-2 border-violet-100 px-8 py-2.5 font-bold text-violet-100 transition-all hover:scale-105 hover:bg-violet-100 hover:font-extrabold hover:text-violet-950"
+                className="mt-6 flex w-full items-center justify-center gap-3 rounded-md border-2 border-violet-100 px-8 py-2.5 font-bold text-violet-100 transition-all hover:scale-105 hover:bg-violet-100 hover:font-extrabold hover:text-violet-950 sm:max-w-[250px]"
               >
-                Projetos
+                Ver projetos
                 <ArrowRight size={22} strokeWidth={3} />
               </Link>
             </div>

@@ -31,7 +31,7 @@ export default function Hero() {
         data-aos="zoom-in"
         className="mt-20 flex flex-col gap-4 sm:gap-8  xl:mt-0"
       >
-        <span className="bg-radial-gradient-text bg-clip-text text-4xl font-extrabold uppercase text-transparent sm:text-7xl">
+        <span className="bg-radial-gradient-text bg-clip-text text-4xl font-extrabold uppercase text-transparent sm:text-5xl">
           {'< '}Sobre mim{' />'}
         </span>
 
@@ -62,7 +62,7 @@ export default function Hero() {
           oportunidades e colaborações.
         </p>
 
-        <div className="flex w-full flex-col gap-4 sm:flex-row">
+        <div className="mt-4 flex w-full flex-col gap-4 sm:flex-row">
           <SocialBtn
             color="blue"
             svg={<FontAwesomeIcon icon={faLinkedin} size={'xl'} />}

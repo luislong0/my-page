@@ -7,7 +7,7 @@ export function Carrousel() {
   const [ref] = useKeenSlider<HTMLDivElement>({
     loop: true,
     slides: {
-      perView: 1.05,
+      perView: 1.08,
       spacing: 5,
     },
   })
