@@ -94,7 +94,7 @@ export default function NavbarMenu() {
                   href="#port"
                   className="text-md ml-4 rounded-md px-3 py-2 font-medium text-gray-300 transition duration-150 ease-in-out hover:bg-violet-500 hover:text-white focus:bg-violet-500 focus:text-white focus:outline-none"
                 >
-                  Portifólio
+                  Portfólio
                 </a>
                 <a
                   href="#services"

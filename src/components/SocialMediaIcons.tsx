@@ -5,23 +5,23 @@ import Link from 'next/link'
 
 export default function SocialMediaIcons() {
   return (
-    <div className="flex items-center gap-5">
+    <div className="flex items-center gap-5 text-zinc-100">
       <Link
-        href={''}
+        href={'https://github.com/luislong0'}
         className="transition-all hover:scale-105 hover:text-violet-500"
       >
         <FontAwesomeIcon icon={faGithub} size={'2x'} />
       </Link>
 
       <Link
-        href={''}
+        href={'https://www.linkedin.com/in/luislong0/'}
         className="transition-all hover:scale-105 hover:text-violet-500"
       >
         <FontAwesomeIcon icon={faLinkedin} size={'2x'} />
       </Link>
 
       <Link
-        href={''}
+        href={'mailto:luisptavio.l.p@gmail.com'}
         className="transition-all hover:scale-105 hover:text-violet-500"
       >
         <Mail size={36} />

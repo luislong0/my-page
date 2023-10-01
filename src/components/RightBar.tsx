@@ -1,7 +1,7 @@
 import { useStore } from '@/zustand-store'
 import React from 'react'
 
-const links = ['home', 'about', 'portfolio', '#', '#']
+const links = ['home', 'about', 'port', 'services', 'contact']
 
 export function RightBar() {
   const { isSelected, save } = useStore((store) => {

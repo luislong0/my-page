@@ -52,7 +52,7 @@ export function TechCard({ tech }: TechCardProps) {
           </p>
 
           <Link
-            href={''}
+            href={'/projects'}
             className="flex w-full items-center justify-center gap-3 rounded-md border-2 border-blue-500 px-8 py-2.5 font-bold text-blue-500 transition-all hover:scale-105 hover:bg-blue-500 hover:font-extrabold hover:text-white"
           >
             Projetos

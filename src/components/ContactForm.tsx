@@ -105,7 +105,7 @@ export function ContactForm() {
         </span>
         <input
           type="email"
-          placeholder="Digite seu E-mail"
+          placeholder="Digite seu e-mail"
           className="rounded-md border  px-4 py-2.5 text-zinc-950 placeholder:text-sm  focus:outline-none focus:ring-2 focus:ring-violet-500"
           {...register('email')}
         />
@@ -124,7 +124,7 @@ export function ContactForm() {
           type="text"
           mask="(99) 99999-9999"
           placeholder="(xx) xxxxx-xxxx"
-          className="rounded-md border  px-4 py-2.5 text-zinc-950 placeholder:text-sm  focus:outline-none focus:ring-2 focus:ring-violet-500"
+          className="rounded-md border  px-4 py-2.5 text-zinc-950 placeholder:text-sm focus:outline-none focus:ring-2 focus:ring-violet-500"
           {...register('phone')}
         />
         <FormErrorSpan
@@ -140,9 +140,9 @@ export function ContactForm() {
         </span>
         <textarea
           id="description"
-          rows={15}
+          rows={8}
           maxLength={maxLength}
-          className="resize-none rounded-md bg-white px-5 py-2.5 text-zinc-950 focus:outline-none focus:ring-2 focus:ring-violet-500"
+          className="resize-none rounded-md bg-white px-5 py-2.5 text-zinc-950 placeholder:text-sm focus:outline-none focus:ring-2 focus:ring-violet-500"
           placeholder="Digite sua mensagem aqui!"
           {...register('description')}
           onChange={(e) => setDescription(e.target.value)}

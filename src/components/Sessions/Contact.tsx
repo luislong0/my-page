@@ -14,10 +14,10 @@ export default function Contact() {
       id="contact"
       className="h-fit w-full bg-radial-gradient pb-0 pt-20 sm:pb-20 xl:min-h-screen"
     >
-      <div className="m-auto flex w-full max-w-7xl flex-col items-center justify-center gap-20 md:px-20 xl:flex-row xl:gap-32">
+      <div className="m-auto flex w-full max-w-7xl flex-col items-center justify-center gap-20 md:px-20 xl:flex-row xl:justify-between xl:gap-32 2xl:px-0">
         <div
           data-aos="zoom-in"
-          className=" flex flex-1 flex-col gap-4 px-8 sm:gap-8 xl:mt-0 2xl:px-0"
+          className=" flex flex-1 flex-col gap-4 px-8 sm:gap-8 sm:px-0 xl:mt-0"
         >
           <h2 className="text-4xl font-extrabold uppercase text-zinc-100 sm:text-5xl">
             {'< '}
