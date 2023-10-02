@@ -14,12 +14,12 @@ export default function Projects() {
 
   return (
     <SimpleLayout>
-      <div className="mx-auto w-full max-w-7xl py-20">
+      <div className="mx-auto w-full max-w-7xl px-8 py-20 2xl:px-0">
         <div className="mb-16 flex flex-col items-center justify-center gap-6">
-          <div className="relative flex w-full items-center justify-center ">
+          <div className="relative flex w-full flex-col items-start justify-start gap-8 sm:flex-row sm:items-center sm:justify-center">
             <Link
               href={'/'}
-              className="absolute left-0 flex items-center font-medium text-zinc-200 hover:text-violet-500"
+              className="static left-0 flex items-center font-medium text-zinc-200 hover:text-violet-500 sm:absolute"
             >
               <ChevronLeft /> Início
             </Link>

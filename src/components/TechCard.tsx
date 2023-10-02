@@ -8,13 +8,11 @@ import typescriptLogo from '../assets/icons8-typescript.svg'
 
 interface TechCardProps {
   tech: 'react' | 'node' | 'native' | 'type'
+  text: string
 }
 
-export function TechCard({ tech }: TechCardProps) {
+export function TechCard({ tech, text }: TechCardProps) {
   const [isSliced, setIsSliced] = useState(true)
-
-  const text =
-    'React é uma biblioteca JavaScript desenvolvida pelo Facebook para construir interfaces de usuário. Centra-se na criação de componentes reutilizáveis, permitindo que as interfaces sejam construídas como uma composição de componentes. O React é particularmente famoso pela sua abordagem "virtual DOM", que otimiza a atualização e renderização da página, tornando as aplicações mais rápidas e eficientes. É amplamente utilizado em aplicações de página única (SPAs) e tem um vasto ecossistema com várias ferramentas, bibliotecas e comunidade ativa.'
 
   const slicedText = limitText(text, 250)
 

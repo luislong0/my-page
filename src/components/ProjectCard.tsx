@@ -72,7 +72,7 @@ export function ProjectCard({
           ))}
         </div>
 
-        <div className="flex justify-between">
+        <div className="flex justify-between gap-2">
           <a
             href={github}
             className={`w-[150px] rounded-md ${
