@@ -32,7 +32,10 @@ export default function Projects() {
             relevantes. Se deseja ter uma visão mais completa, analisar códigos
             ou explorar outros trabalhos que desenvolvi ao longo do tempo,
             sinta-se à vontade para visitar meu{' '}
-            <a href="" className="font-bold text-violet-500">
+            <a
+              href="https://github.com/luislong0"
+              className="font-bold text-violet-500"
+            >
               Github
             </a>
             . Estou sempre atualizando e adicionando novos conteúdos.
