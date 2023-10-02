@@ -67,14 +67,14 @@ export default function Hero() {
             color="blue"
             svg={<FontAwesomeIcon icon={faLinkedin} size={'xl'} />}
             content="LinkedIn"
-            href="https://github.com/luislong0"
+            href="https://www.linkedin.com/in/luislong0/"
           />
 
           <SocialBtn
             svg={<FontAwesomeIcon icon={faGithub} size={'xl'} />}
             color="white"
             content="GitHub"
-            href="https://www.linkedin.com/in/luislong0/"
+            href="https://github.com/luislong0"
           />
         </div>
       </div>
