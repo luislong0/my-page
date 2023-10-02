@@ -41,7 +41,7 @@ export function ProjectCard({
         }`}
       >
         <div
-          className={`absolute -mt-4 rounded-full ${
+          className={`absolute -mt-4 flex min-h-[50px] min-w-[50px] items-center justify-center rounded-full ${
             cardType === 'react' && 'bg-blue-500'
           } ${cardType === 'node' && 'bg-green-500'} ${
             cardType === 'react-native' && 'bg-indigo-800'
