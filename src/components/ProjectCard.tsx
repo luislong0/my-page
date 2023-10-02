@@ -85,7 +85,7 @@ export function ProjectCard({
           </a>
           {url !== '' && (
             <a
-              href=""
+              href={url}
               className={`w-[150px] rounded-md ${
                 cardType === 'react' && 'bg-blue-500'
               } ${cardType === 'node' && 'bg-green-500'} ${
