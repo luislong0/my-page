@@ -18,7 +18,7 @@ export default function Hero() {
   return (
     <div
       id="about"
-      className="m-auto flex w-full max-w-7xl flex-col items-center justify-center px-8 py-20 md:px-20 xl:h-screen xl:flex-row xl:gap-32 2xl:px-0 2xl:py-0"
+      className="m-auto flex w-full max-w-7xl flex-col items-center justify-center px-8 py-20 md:px-20 xl:h-[1000px] xl:flex-row xl:gap-32 2xl:px-0 2xl:py-0"
     >
       <Image
         src={developerPic}

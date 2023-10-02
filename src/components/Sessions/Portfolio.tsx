@@ -14,7 +14,7 @@ export default function Portfolio() {
 
   return (
     <div id="port" className="h-fit w-full bg-radial-gradient xl:min-h-screen">
-      <div className="m-auto flex w-full max-w-7xl flex-col items-center justify-center px-8 py-20 md:px-20 xl:h-screen xl:flex-row xl:gap-32 2xl:px-0 2xl:py-0">
+      <div className="m-auto flex w-full max-w-7xl flex-col items-center justify-center px-8 py-20 md:px-20 xl:h-[1000px] xl:flex-row xl:gap-32 2xl:px-0 2xl:py-0">
         <div className="">
           <div className="flex w-full flex-col gap-6 px-4 sm:px-0">
             <h2 className="text-4xl font-extrabold uppercase text-zinc-100 sm:text-5xl">

@@ -15,7 +15,7 @@ export default function Hero() {
   }, [])
 
   return (
-    <div id="home" className="relative w-full bg-radial-gradient xl:h-screen">
+    <div id="home" className="relative w-full bg-radial-gradient xl:h-[1000px]">
       <NavbarMenu />
       <div className="m-auto flex w-full max-w-7xl flex-col items-center justify-center px-8 md:px-20 xl:h-[80vh] xl:flex-row xl:gap-10 2xl:px-0">
         <div

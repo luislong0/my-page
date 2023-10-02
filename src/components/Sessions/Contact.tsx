@@ -12,7 +12,7 @@ export default function Contact() {
   return (
     <div
       id="contact"
-      className="h-fit w-full bg-radial-gradient pb-0 pt-20 sm:pb-20 xl:min-h-screen"
+      className="h-fit w-full bg-radial-gradient pb-0 pt-20 sm:pb-20 xl:h-[1000px]"
     >
       <div className="m-auto flex w-full max-w-7xl flex-col items-center justify-center gap-20 md:px-20 xl:flex-row xl:justify-between xl:gap-32 2xl:px-0">
         <div
