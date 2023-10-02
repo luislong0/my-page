@@ -1,4 +1,4 @@
-import { faReact } from '@fortawesome/free-brands-svg-icons'
+import { faNodeJs, faReact } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Image from 'next/image'
 // import image from './Screenshot_3.png'
@@ -47,7 +47,27 @@ export function ProjectCard({
             cardType === 'react-native' && 'bg-indigo-800'
           } p-2`}
         >
-          <FontAwesomeIcon icon={faReact} size="2xl" />
+          {cardType === 'react' && (
+            <FontAwesomeIcon
+              icon={faReact}
+              size="2xl"
+              className="text-zinc-100"
+            />
+          )}
+          {cardType === 'node' && (
+            <FontAwesomeIcon
+              icon={faNodeJs}
+              size="2xl"
+              className="text-zinc-100"
+            />
+          )}
+          {cardType === 'react-native' && (
+            <FontAwesomeIcon
+              icon={faReact}
+              size="2xl"
+              className="text-zinc-100"
+            />
+          )}
         </div>
       </div>
 
